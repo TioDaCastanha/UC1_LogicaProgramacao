@@ -1,29 +1,25 @@
 package FuncoesProcedimentos;
 
-import java.util.Scanner;
-
 public class Funcao {
+
     public static void main(String[] args){
+        Calculo calculo = new Calculo();
 
-        Scanner in = new Scanner(System.in);
-
-        String nome;
-        int matricula;
-
-        System.out.print("Informe seu nome: ");
-        nome = in.nextLine();
-        System.out.print("Informe sua matrícula: ");
-        matricula = in.nextInt();
-
-        System.out.print(nome);
-        pulaLinha();
-        System.out.print(matricula);
+        System.out.println("Soma: " + calculo.soma(10,20));
+        System.out.println("Divisão: " + calculo.divisao(100, 25));
 
     }
 
-    public static void pulaLinha(){
-        System.out.println(" ");
-        System.out.println(" ");
-    }
 
+    public static class Calculo {
+
+        int soma(int x, int y) {
+            return x + y;
+        }
+
+        double divisao(int x, int y) {
+            return (double) x / y;
+        }
+
+    }
 }

@@ -2,7 +2,7 @@ package FuncoesProcedimentos;
 
 import java.util.Scanner;
 
-public class Ex02Funcao {
+public class Ex02Procedimento {
 
     private static Scanner in = new Scanner(System.in);
 

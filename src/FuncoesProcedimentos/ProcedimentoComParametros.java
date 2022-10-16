@@ -2,7 +2,7 @@ package FuncoesProcedimentos;
 
 import java.util.Scanner;
 
-public class FuncaoComParametros {
+public class ProcedimentoComParametros {
 
     private static int velocidade;
     private static Scanner in = new Scanner(System.in);

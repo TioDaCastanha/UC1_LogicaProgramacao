@@ -2,7 +2,7 @@ package FuncoesProcedimentos;
 
 import java.util.Scanner;
 
-public class Ex01Funcao {
+public class Ex01Procedimento {
 
     private static String nome;
     private static String sobrenome;
