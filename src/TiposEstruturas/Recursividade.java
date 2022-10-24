@@ -10,7 +10,6 @@ public class Recursividade {
 
     }
 
-
     public static int fatorial (int numero){
         if (numero <= 2){
             return 2;
